@@ -1,8 +1,5 @@
 import setuptools
 
-with open("readme.txt", "r", encoding="utf-8") as fh:
-    long_description = fh.read()
-
 setuptools.setup(
     name="au_adsp-mpgriff", # Replace with your own username
     version="0.0.1",
