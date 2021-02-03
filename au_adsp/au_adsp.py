@@ -5,15 +5,15 @@ def zplane(b,a, *args, colour='C0'):
         function to replicate the functionality of Matlab's zplane
     """
 
-    from numpy import roots
-    from matplotlib.pyplot import subplots
-    zeros = roots(b)
-    poles = roots(a)
+    import numpy as np
+    import matplotlib.pyplot as plt
+    zeros = np.roots(b)
+    poles = np.roots(a)
 
 
     # make a matplotlib subplot if it wasnt given (optional parameter)
     if len(args)==0:
-        fig,axs = subplots(1,1, figsize=(6,6))
+        fig,axs = plt.subplots(1,1, figsize=(6,6))
     else:
         axs = args[0]
 
@@ -39,5 +39,5 @@ def zplane(b,a, *args, colour='C0'):
     axs.set_yticks([-1, -0.5, 0, 0.5, 1.])
     axs.set_xticks([-1, -0.5, 0, 0.5, 1.])
     axs.legend()
-
+    plt.show()
     return zeros, poles

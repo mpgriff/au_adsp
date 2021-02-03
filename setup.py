@@ -11,7 +11,7 @@ setuptools.setup(
     description="A small example package",
     long_description=long_description,
     packages=setuptools.find_packages(),
-    url="https://github.com/mpgriff/au_adsp"
+    url="https://github.com/mpgriff/au_adsp",
     install_requires=['numpy', 'matplotlib', 'scipy'],
     classifiers=[
         "Programming Language :: Python :: 3",

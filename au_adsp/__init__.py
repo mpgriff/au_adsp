@@ -1,1 +1,1 @@
-from au_adsp import *
+from .au_adsp import zplane
