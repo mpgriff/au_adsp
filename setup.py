@@ -6,7 +6,7 @@ setuptools.setup(
     author="matt griffiths",
     author_email="mpg@ece.au.dk",
     description="A small example package",
-    long_description=long_description,
+    long_description="replacement for matlab functions in Advance Digital Signal Processing",
     packages=setuptools.find_packages(),
     url="https://github.com/mpgriff/au_adsp",
     install_requires=['numpy', 'matplotlib', 'scipy'],
