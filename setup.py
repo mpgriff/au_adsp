@@ -1,7 +1,7 @@
 import setuptools
 
 setuptools.setup(
-    name="au_adsp-mpgriff", # Replace with your own username
+    name="au_adsp", # Replace with your own username
     version="0.0.2",
     author="matt griffiths",
     author_email="mpg@ece.au.dk",
